@@ -15,8 +15,6 @@ export default function expertise() {
       element.querySelectorAll<HTMLElement>(".expertise__tabs-item")
     );
 
-    const nav = element.querySelector<HTMLElement>(".expertise__nav")!;
-
     const setActive = (index: number) => {
       navLinks.forEach((link) => link.classList.remove("active"));
       tabItems.forEach((item) => item.classList.remove("active"));
