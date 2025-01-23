@@ -1,0 +1,16 @@
+:root {
+  --primary-color: hsl(355, 84%, 55%);
+  --primary-color-hover: hsl(355, 84%, 55%);
+  --primary-color-active: hsla(355, 84%, 55%, 0.4);
+  --text-color: hsl(0, 0%, 8%);
+  --dark-bg: hsl(228, 16%, 13%);
+  --bg: white;
+  --rf-dewi: "RF Dewi", sans-serif;
+  --inter: "Inter", serif;
+  --content-padding: 4rem;
+  --container-width: 184rem;
+
+  @include breakpoint(mobile) {
+    --content-padding: 1.6rem;
+  }
+}

@@ -1,0 +1,48 @@
+<div class="modal js-modal" id="callback-modal" data-lenis-prevent="">
+    <div class="modal__inner">
+        <button class="modal__close js-modal-close" type="button">
+            <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="#modal-close"></use>
+            </svg>
+        </button>
+        <h3 class="h4 modal__heading">
+            Оставьте заявку и мы свяжемся
+            с вами в ближайшее время
+        </h3>
+        <form action="/" method="POST" class="modal__form">
+            <div class="modal__form-fields">
+                <div class="modal__form-field">
+                    <div class="modal__form-input-wrapper">
+                        <input type="text" name="your-name" class="modal__form-input" placeholder="ФИО" required="">
+                    </div>
+                </div>
+                <div class="modal__form-field">
+                    <div class="modal__form-input-wrapper">
+                        <input type="email" name="your-email" class="modal__form-input" placeholder="E-mail"
+                            required="">
+                    </div>
+                </div>
+                <div class="modal__form-field">
+                    <div class="modal__form-input-wrapper">
+                        <input type="tel" name="your-phone" class="modal__form-input" placeholder="+7 (999)-999-99-99"
+                            required="">
+                    </div>
+                </div>
+                <div class="modal__form-field">
+                    <div class="modal__form-input-wrapper">
+                        <textarea name="your-comment" class="modal__form-input"
+                            placeholder="Комментарий (необязательно)"></textarea>
+                    </div>
+                </div>
+            </div>
+            <button class="btn modal__form-submit" type="submit">
+                отправить заявку
+            </button>
+            <div class="modal__form-policy">
+                Нажимая «Отправить», Вы соглашаетесь на обработку персональных данных и принимаете условия <a
+                    href="#">политики
+                    конфиденциальности</a>
+            </div>
+        </form>
+    </div>
+</div>

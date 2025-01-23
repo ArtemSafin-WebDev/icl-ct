@@ -1,0 +1,42 @@
+.show-more {
+  display: block;
+  text-align: center;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: 0.042rem;
+  text-transform: uppercase;
+  font-family: var(--inter);
+  border-radius: 8rem;
+  background: hsl(223, 28%, 95%);
+  color: var(--text-color);
+  width: 100%;
+  align-self: stretch;
+  padding: 3.15rem 6rem;
+  transition: color 0.2s, background-color 0.2s;
+  &:link,
+  &:visited {
+    color: var(--text-color);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      background: hsl(223, 25%, 90%);
+    }
+  }
+
+  &:active {
+    background: hsl(223, 25%, 90%);
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%; /* 1.15rem */
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    padding: 2.55rem 4rem;
+  }
+}
