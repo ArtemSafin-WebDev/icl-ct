@@ -9,6 +9,7 @@ import menu from "./menu";
 import modals from "./modals";
 import fancybox from "./fancybox";
 import forms from "./forms";
+import mediacenter from "./mediacenter";
 
 document.addEventListener("DOMContentLoaded", () => {
   menu();
@@ -20,6 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   whyUs();
   fancybox();
   forms();
+  mediacenter();
 });
 
 window.addEventListener("load", () => {
