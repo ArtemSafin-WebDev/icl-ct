@@ -8,6 +8,7 @@ import whyUs from "./whyUs";
 import menu from "./menu";
 import modals from "./modals";
 import fancybox from "./fancybox";
+import forms from "./forms";
 
 document.addEventListener("DOMContentLoaded", () => {
   menu();
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
   expertise();
   whyUs();
   fancybox();
+  forms();
 });
 
 window.addEventListener("load", () => {

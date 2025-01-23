@@ -9,7 +9,7 @@
             Оставьте заявку и мы свяжемся
             с вами в ближайшее время
         </h3>
-        <form action="/" method="POST" class="modal__form">
+        <form action="/" method="POST" class="modal__form js-form">
             <div class="modal__form-fields">
                 <div class="modal__form-field">
                     <div class="modal__form-input-wrapper">
@@ -44,5 +44,17 @@
                     конфиденциальности</a>
             </div>
         </form>
+    </div>
+</div>
+<div class="modal js-modal" id="success-modal" data-lenis-prevent="">
+    <div class="modal__inner">
+        <button class="modal__close js-modal-close" type="button">
+            <svg width="14" height="14" aria-hidden="true">
+                <use xlink:href="#modal-close"></use>
+            </svg>
+        </button>
+        <h3 class="h4 modal__heading">
+            Заявка успешно отправлена
+        </h3>
     </div>
 </div>

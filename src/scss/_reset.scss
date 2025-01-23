@@ -212,7 +212,7 @@ select:-webkit-autofill:focus {
   font-size: 1.6rem;
   line-height: 140%;
   margin-top: 1rem;
-  color: #f60a18;
+  color: var(--primary-color);
   @include breakpoint(mobile) {
     font-size: 1.4rem;
     font-style: normal;
