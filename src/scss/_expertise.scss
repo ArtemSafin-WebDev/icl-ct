@@ -135,7 +135,6 @@
   font-style: normal;
   font-weight: 600;
   line-height: 120%;
-  letter-spacing: -0.1rem;
   font-family: var(--rf-dewi);
 
   @include breakpoint(mobile) {
@@ -143,7 +142,6 @@
     font-style: normal;
     font-weight: 600;
     line-height: 120%;
-    letter-spacing: -0.036rem;
   }
 }
 
